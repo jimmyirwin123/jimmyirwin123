@@ -1,8 +1,7 @@
-function callBoth() {
+function callBoth(){
     textSwitch();
     togglePlay();
 };
-
 
 
 function textSwitch() {
