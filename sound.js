@@ -37,7 +37,6 @@ myAudio.onpause = function() {
 
 document.addEventListener('keyup', event => {
     if (event.code === 'Space') {
-        togglePlay();
         textSwitch();
         console.log('Space pressed');
     }
