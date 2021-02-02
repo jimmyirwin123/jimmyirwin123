@@ -1,4 +1,8 @@
 
+function callBoth(){
+    textSwitch();
+    togglePlay();
+};
 
 
 function textSwitch() {
@@ -33,16 +37,16 @@ myAudio.onpause = function() {
 };
 
 
-//SPACE BAR *********************************
+// SPACE BAR *********************************
 
 document.addEventListener('keyup', event => {
     if (event.code === 'Space') {
-        textSwitch();
-        togglePlay();
+        callBoth();
         console.log('Space pressed');
     }
 
 });
+
 
 
 
