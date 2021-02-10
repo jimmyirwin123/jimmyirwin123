@@ -21,7 +21,7 @@ function textSwitch() {
 // AUDIO VOLUME *********************
 
 var audio = document.getElementById("myAudio")
-audio.volume = 0.1;
+audio.volume = 0.2;
     
 // AUDIO TOGGLE PLAY/PAUSE ***********************
 
